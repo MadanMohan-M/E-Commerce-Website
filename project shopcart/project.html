@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMMY.in</title>
+    <style>
+        body {
+            background-image:url("C:\Users\MOKKA MADANMOHAN\OneDrive\Pictures\download images\Picture1.jpg");
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header {
+            background-color: #842929fb;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .order-container {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .delivery-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 16px;
+        }
+
+        button {
+            background-color: #e9e0e0;
+            color: #f1eded;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MMMY BAKERS</h1>
+    </header>
+
+    <main>
+        <div class="order-container">
+            <h2>LOGIN PAGE</h2>
+            <form class="delivery-form">
+                <label for="customerName">LOGIN ID:</label>
+                <input type="text" id="customerName" name="customerName" required>
+
+                <label for="deliveryAddress">PASSWORD :</label>
+                <input type="password" id="deliveryAddress" name="deliveryAddress" required>
+
+                
+
+                <button type="submit" onclick="submit()"><a href="food.html">submit</a></button>
+            </form>
+        </div>
+    </main>
+
+    <script>
+        function submit() {
+            // You can add JavaScript logic here to handle the order placement
+            alert("login  in successfully!");
+        }
+    </script>
+
+</body>
+</html>
